@@ -1,0 +1,145 @@
+*{
+    list-style: none;
+    text-decoration: none;
+    padding: 0;
+
+}
+body{
+    font-family: Tahoma;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    width: 100%;
+}
+.container{
+    margin: 0 auto;
+    width: 70%;
+}
+header{
+    position: fixed;
+    width: 100%;
+    border-bottom: 2px solid rgb(195, 183, 183);
+}
+.inner_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    color: orangered;
+}
+.nav_item a{
+    font-size: 18px;
+    text-transform:capitalize;
+    margin: 5px 10px;
+    color: aliceblue;
+
+    
+}
+.nav_item a:hover{
+    color: rgb(232, 87, 15);
+    transition: all 0.3s ease-in-out;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+.banner{
+    background: url(img/bg.jpg);
+    width: 100%;
+    height: 600px;
+    background-size: contain;
+    background-position: bottom;
+    
+}
+.text_banner{
+    width: 50%;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    top: -350px;
+    
+}
+.text_banner h1{
+    font-size: 35px;
+    color: rgb(240, 236, 236);
+}
+.text_banner h3{
+    font-size: 20px;
+    color: rgb(204, 195, 195);
+}
+.text_banner button{
+    outline: transparent;
+    font-size: 20px;
+    text-decoration: none;
+    border-radius: 20px;
+    width: 110px;
+    height: 40px;
+    background-color: rgb(238, 173, 149);
+    text-transform:capitalize;
+
+}
+.text_banner button:hover{
+    background-color: rgb(232, 71, 12);
+    transition: all 0.5s;
+    border-color: rgb(170, 165, 165);
+}
+.main_content{
+    margin-top: -150px;
+}
+
+.content_1 h2{
+    text-align: center;
+    
+    text-transform: uppercase;
+    color: orangered;
+    padding-bottom: 50px;
+}
+.content_menu{
+    display: flex;
+    flex-grow: 1;
+}
+.content_menu-item{
+    text-align: center;
+    border: 2px solid rgb(188, 186, 181);
+    margin: 0 25px;
+    width: 1000px;
+    height: auto;
+    font-size: 20px;
+    
+    border-radius: 30px;
+}
+.content_menu-item p{
+    color:rgb(64, 59, 59);
+}
+
+.content_menu-item h3{
+    margin-bottom: 15px;
+    color: rgb(230, 85, 23);
+}
+.content_2{
+    text-align: center;
+}
+.content_2 h2{
+    color: orangered;
+    text-transform: uppercase;
+    padding: 50px 0;
+}
+.content_menu_img{
+    display: flex;
+    justify-content: space-around;
+}
+.content_menu-item p{
+    margin: 0 10px;
+}
+.content_menuimg-item img{
+    width: 350px;
+    height: 300px;
+    border-radius: 50px;
+    margin: 20px;
+}
